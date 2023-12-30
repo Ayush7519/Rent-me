@@ -51,7 +51,7 @@ class UserManager(BaseUserManager):
             phone=phone,
             photo=photo
         )
-
+        # user.is_staff = True
         user.is_admin = True
         user.is_active = True
         user.is_superuser = True
